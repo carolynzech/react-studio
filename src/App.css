@@ -1,9 +1,32 @@
 /* Add styling for your page here */
-
-.App {
-
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.BakeryItem {
-  
+.cart {
+    padding: 20px 20px;
+}
+
+h1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
